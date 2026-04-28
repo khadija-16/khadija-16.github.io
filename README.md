@@ -12,7 +12,7 @@
 
 4\. Copy your GitHub username and paste it in place of “USERNAME” in “USERNAME.github.io”
 
-<img width="442" height="395" alt="image" src="https://github.com/user-attachments/assets/dafe6b6b-0194-4b44-9e97-b9116a039540" />
+<img src="https://github.com/user-attachments/assets/dafe6b6b-0194-4b44-9e97-b9116a039540" alt="image" width="442" height="395"/>
 
 5\. Click “Create repository”
 
@@ -26,7 +26,7 @@
 
 9\. Paste the repo url you copied in Step 3 and click “OK”
 
-<img width="659" height="254" alt="image" src="https://github.com/user-attachments/assets/23a40a7e-d897-4aad-8fd7-234ddb3a3776" />
+<img src="https://github.com/user-attachments/assets/23a40a7e-d897-4aad-8fd7-234ddb3a3776" alt="image" width="659" height="254"/>
 
 ## Git setup
 
@@ -36,7 +36,7 @@
 
 12\. When you see a yellow banner above git.R, click "Install" and wait for installation to complete in the background
 
-<img width="512" height="251" alt="image" src="https://github.com/user-attachments/assets/d9571374-4b31-48ab-9edb-9cd7ff4eaa27" />
+<img src="https://github.com/user-attachments/assets/d9571374-4b31-48ab-9edb-9cd7ff4eaa27" alt="image" width="512" height="251"/>
 
 13\. Click “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)
 
@@ -56,7 +56,7 @@
 
 20\. Close all modals and click the green up arrow labeled "Push" to push your commit to GitHub
 
-<img width="946" height="343" alt="image" src="https://github.com/user-attachments/assets/92db4bfd-1828-48a7-a0f7-bf74a07ae189" />
+<img src="https://github.com/user-attachments/assets/92db4bfd-1828-48a7-a0f7-bf74a07ae189" alt="image" width="946" height="343"/>
 
 ## Publishing
 
@@ -64,24 +64,24 @@
 
 22\. Click on the "publi.sh" file in the "File" tab of the bottom right pane, click "Run" in the upper right corner of the upper left pane, then type "y" in the terminal, press Enter or Return
 
-<img width="802" height="205" alt="image" src="https://github.com/user-attachments/assets/32e42f7a-0818-4193-86e4-142221e0b02a" />
+<img src="https://github.com/user-attachments/assets/32e42f7a-0818-4193-86e4-142221e0b02a" alt="image" width="802" height="205"/>
 
 ## Notes
 
 After the first time you complete Step 22, you can click "Run Script" instead of "Run" and publish with the need to confirm by entering "y" in the terminal.
 
-<img width="506" height="95" alt="image" src="https://github.com/user-attachments/assets/41814bb7-8c85-468b-a004-02c3b52deac7" />
+<img src="https://github.com/user-attachments/assets/41814bb7-8c85-468b-a004-02c3b52deac7" alt="image" width="506" height="95"/>
 
 You may prefer to show the preview of your presentation in the Viewer tab of the lower right pane instead of a separate window.
 
-<img width="729" height="244" alt="image" src="https://github.com/user-attachments/assets/5cfa5359-710b-477a-9cac-8865cf115fa4" />
+<img src="https://github.com/user-attachments/assets/5cfa5359-710b-477a-9cac-8865cf115fa4" alt="image" width="729" height="244"/>
 
 You can always click "Present in an external browser" if you want to dedicate a whole browser tab to the preview.
 
-<img width="800" height="137" alt="image" src="https://github.com/user-attachments/assets/bec8d6c8-043a-4ca8-a163-871be8d55ccb" />
+<img src="https://github.com/user-attachments/assets/bec8d6c8-043a-4ca8-a163-871be8d55ccb" alt="image" width="800" height="137"/>
 
 The template repo I created has the [quarto-revealjs-editable](https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html) extension by [Emil Hvitfeldt](https://emilhvitfeldt.github.io/about) already installed so that you can make edits like in Powerpoint or Google Slides.
 
-<img width="950" height="436" alt="image" src="https://github.com/user-attachments/assets/2e17d8b9-48b2-48e4-84e8-7880b6278baf" />
+<img src="https://github.com/user-attachments/assets/2e17d8b9-48b2-48e4-84e8-7880b6278baf" alt="image" width="950" height="436"/>
 
-Depending on what you add to your site, you may need to install additional dependencies in Posit Cloud and modify the `.github/workflows/publish.yml` file so that you do not need to run `publi.sh` each time you want to update your site. 
+Depending on what you add to your site, you may need to install additional dependencies in Posit Cloud and modify the `.github/workflows/publish.yml` file so that you do not need to run `publi.sh` each time you want to update your site.
