@@ -1,7 +1,14 @@
 ---
 title: "Digestive System"
 author: "Khadija Laghzaoui"
-format: revealjs
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    css: styles.css
+    include-after-body: date.html
 ---
 
 ## Digestive System
