@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Tutorials",
     "section": "",
-    "text": "Quarto manuscript\n\n\n\n\n\n\n\n\n1777554750\n\n\nMartin Laptev\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto presentation\n\n\n\n\n\n\n\n\n1777554750\n\n\nMartin Laptev\n\n\n\n\n\nNo matching items\nAttributions\n\nArtwork from “Hello, Quarto” keynote by Mine Çetinkaya-Rundel and Julia Stewart Lowndes, presented at RStudio Conference 2022. Illustrated by Allison Horst.\n\n\n\nA schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.\n\n\n\n\n\nTwo penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo “moon” in the sky, while the other penguin looks on.\n\n\nFor more from Allison, see her website and GitHub."
+    "text": "How to Study for BIOL 109 Exams\n\n\n\n\n\n\n\n\n1777563713\n\n\nKhadija Laghzaoui\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto presentation\n\n\n\n\n\n\n\n\n1777563713\n\n\nMartin Laptev\n\n\n\n\n\nNo matching items\nAttributions\n\nArtwork from “Hello, Quarto” keynote by Mine Çetinkaya-Rundel and Julia Stewart Lowndes, presented at RStudio Conference 2022. Illustrated by Allison Horst.\n\n\n\nA schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.\n\n\n\n\n\nTwo penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo “moon” in the sky, while the other penguin looks on.\n\n\nFor more from Allison, see her website and GitHub."
   },
   {
     "objectID": "posts/presentation/index.html",
@@ -58,9 +58,58 @@
   {
     "objectID": "posts/tutorial/index.html",
     "href": "posts/tutorial/index.html",
-    "title": "Quarto manuscript",
+    "title": "How to Study for BIOL 109 Exams",
     "section": "",
-    "text": "For over a decade, I have been promoting the idea that software development skills can be useful for everyone — not just software engineers. With recent advances in artificial intelligence, software development is no longer solely the domain of highly trained engineers.\nOne of the best ways to get started crafting software is to create your own website.\nThe tools I used to create websites have improved greatly over time and as a result I would port my personal website to a new system every few years.\nAfter a few years of building websites with Quarto, I am certain that I will not have to switch to another system ever again.\nThe best way to learn about Quarto is to read the official documentation, but the fastest way to get started with Quarto is to use a GitHub template repository (template repo) that already has everything you need.\nI created a template repo for each of the three main kinds of Quarto websites:\n\nManuscript: https://github.com/maptv/art\nBook: https://github.com/maptv/book\nBlog: https://github.com/maptv/USERNAME.github.io\n\nYou can see examples of manuscripts, books, and blogs in the Quarto Gallery.\nI consider manuscript websites to be the simplest of the three, because the final product can consist of a single webpage, as shown by the example in the documentation.\nIn contrast, the expectation is that there will be multiple chapters in a book and multiple posts in a weblog (blog).\nThe common thread across all of these types of websites is that the content of each webpage is stored in at least one Quarto markdown (qmd) file.\nTherefore, a Quarto manuscript website can store all of its content in a single qmd file, whereas Quarto books and blogs are designed to have multiple qmd files.\nBetween books and blogs, I consider books to be simpler, because all of the chapters in a book can be stored together in the top level directory (root), whereas the default structure of a Quarto blog includes a posts directory that contains a subdirectory for each post.\nRegardless of what you want to build with Quarto, you may want to follow the steps below to create a Quarto manuscript so that you can get familiar with the steps needed to publish and update a Quarto website before tackling the greater complexity of a book or a blog.\nAfter you feel comfortable with a Quarto manuscript, try to repeat the steps below with my book template repo: https://github.com/maptv/book.\nThe steps below should also work for my blog template repo: https://github.com/maptv/USERNAME.github.io, but I prepared separate blog setup instructions which also explain\n\nwhy the template repository is called USERNAME.github.io and\nhow to embed a Quarto presentation into a webpage like a Quarto blog post.\n\n\nSetup\n\nGo to the manuscript or book template repo I prepared\nClick “Use this template” and then “Create new repository”\n\n\n\nEnter a repository name and click “Create repository”\n\n\n\nCopy the web address (url)\nGo to https://posit.cloud\nClick “New Project” and then “New Project from Git Repository”\n\n\n\nPaste the repo url you copied in Step 3 and click “OK”\nIn the Files tab of the bottom right pane, select git.R\nEdit the user.name and user.email values in git.R and click the diskette icon to save\nWhen you see a yellow banner above git.R, click “Install” and wait for installation to complete in the background\nClick “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)\nIf you already have a Personal Access Token (PAT), close the new browser tab that opened. Otherwise, enter a note, click “Generate Token”, and click the copy button.\n\n\n\nUpdating\n\nMake at least one change to at least one file, such as the edits to git.R above\nClick the “Git” tab in the top right pane of Posit Cloud\nClick the check box next to the file you changed\nClick “Commit” to open a popup window (modal)\nEnter a commit message in the upper right corner of the modal and click “Commit”\nClose all modals and click the green up arrow labeled “Push” to push your commit to GitHub\n\n\n\nPublishing\n\nPush at least one commit to your repo using the instructions above so that the credentials manager has your username and PAT\nCopy the command below, paste it into the terminal tab in the lower left pane, and press Enter or Return\n\nquarto publish gh-pages\nIf all goes according to plan, you will never again need to run quarto publish gh-pages again for this repo because — thanks to .github/workflows/publish.yml — your site will be built and published whenever you update your site by pushing at least one commit to your repo using the “Updating” instructions above."
+    "text": "Studying for BIOL 109 can be challenging because it requires understanding concepts and memorizing important details. In this tutorial, I will explain a simple and effective way to study for BIOL 109 exams."
+  },
+  {
+    "objectID": "posts/tutorial/index.html#introduction",
+    "href": "posts/tutorial/index.html#introduction",
+    "title": "How to Study for BIOL 109 Exams",
+    "section": "",
+    "text": "Studying for BIOL 109 can be challenging because it requires understanding concepts and memorizing important details. In this tutorial, I will explain a simple and effective way to study for BIOL 109 exams."
+  },
+  {
+    "objectID": "posts/tutorial/index.html#step-1-understand-the-material-first",
+    "href": "posts/tutorial/index.html#step-1-understand-the-material-first",
+    "title": "How to Study for BIOL 109 Exams",
+    "section": "Step 1: Understand the material first",
+    "text": "Step 1: Understand the material first\nBefore memorizing anything, make sure you understand the concepts from lectures and labs. Focus on: - Key terms - Processes (like digestion, cells, etc.) - Diagrams"
+  },
+  {
+    "objectID": "posts/tutorial/index.html#step-2-use-active-recall",
+    "href": "posts/tutorial/index.html#step-2-use-active-recall",
+    "title": "How to Study for BIOL 109 Exams",
+    "section": "Step 2: Use active recall",
+    "text": "Step 2: Use active recall\nInstead of just reading notes, test yourself: - Close your notes - Try to explain the topic out loud - Write what you remember\nThis helps your brain learn faster."
+  },
+  {
+    "objectID": "posts/tutorial/index.html#step-3-use-quizlet-or-flashcards",
+    "href": "posts/tutorial/index.html#step-3-use-quizlet-or-flashcards",
+    "title": "How to Study for BIOL 109 Exams",
+    "section": "Step 3: Use Quizlet or flashcards",
+    "text": "Step 3: Use Quizlet or flashcards\nCreate flashcards for: - Vocabulary - Definitions - Important processes\nReview them every day for better memory."
+  },
+  {
+    "objectID": "posts/tutorial/index.html#step-4-practice-with-questions",
+    "href": "posts/tutorial/index.html#step-4-practice-with-questions",
+    "title": "How to Study for BIOL 109 Exams",
+    "section": "Step 4: Practice with questions",
+    "text": "Step 4: Practice with questions\nAnswer practice questions or quizzes: - This helps you prepare for exam format - You can see your weak areas"
+  },
+  {
+    "objectID": "posts/tutorial/index.html#step-5-review-mistakes",
+    "href": "posts/tutorial/index.html#step-5-review-mistakes",
+    "title": "How to Study for BIOL 109 Exams",
+    "section": "Step 5: Review mistakes",
+    "text": "Step 5: Review mistakes\nWhen you get something wrong: - Go back and understand why - Fix your misunderstanding"
+  },
+  {
+    "objectID": "posts/tutorial/index.html#conclusion",
+    "href": "posts/tutorial/index.html#conclusion",
+    "title": "How to Study for BIOL 109 Exams",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy using understanding, active recall, and practice, you can improve your performance in BIOL 109 and feel more confident during exams."
   },
   {
     "objectID": "posts/presentation/demo/index.html#hello-there",

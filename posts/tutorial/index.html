@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Martin Laptev">
+<meta name="author" content="Khadija Laghzaoui">
 
-<title>Quarto manuscript – SITENAME</title>
+<title>How to Study for BIOL 109 Exams – SITENAME</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -148,7 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Quarto manuscript</h1>
+      <h1 class="title">How to Study for BIOL 109 Exams</h1>
                       </div>
   </div>
     
@@ -158,7 +123,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Martin Laptev </p>
+               <p>Khadija Laghzaoui </p>
             </div>
     </div>
       
@@ -184,75 +149,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>For over a decade, I have been promoting the idea that software development skills can be useful for everyone — not just software engineers. With recent advances in artificial intelligence, software development is no longer solely the domain of highly trained engineers.</p>
-<p>One of the best ways to get started crafting software is to create your own website.</p>
-<p>The tools I used to create websites have improved greatly over time and as a result I would port my personal website to a new system every few years.</p>
-<p>After a few years of building websites with Quarto, I am certain that I will not have to switch to another system ever again.</p>
-<p>The best way to learn about Quarto is to read the <a href="https://quarto.org/docs/guide">official documentation</a>, but the fastest way to get started with Quarto is to use a GitHub <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#about-repository-templates">template repository</a> (template repo) that already has everything you need.</p>
-<p>I created a template repo for each of the three main kinds of Quarto websites:</p>
-<ul>
-<li>Manuscript: <a href="https://github.com/maptv/art" class="uri">https://github.com/maptv/art</a></li>
-<li>Book: <a href="https://github.com/maptv/book" class="uri">https://github.com/maptv/book</a></li>
-<li>Blog: <a href="https://github.com/maptv/USERNAME.github.io" class="uri">https://github.com/maptv/USERNAME.github.io</a></li>
-</ul>
-<p>You can see examples of <a href="https://quarto.org/docs/gallery/#articles-reports">manuscripts</a>, <a href="https://quarto.org/docs/gallery/#books">books</a>, and <a href="https://quarto.org/docs/gallery/#websites">blogs</a> in the <a href="http://quarto.org/docs/gallery">Quarto Gallery</a>.</p>
-<p>I consider manuscript websites to be the simplest of the three, because the final product can consist of a single webpage, as shown by the <a href="https://quarto-ext.github.io/manuscript-template-jupyter">example</a> in the documentation.</p>
-<p>In contrast, the expectation is that there will be multiple chapters in a book and multiple posts in a weblog (blog).</p>
-<p>The common thread across all of these types of websites is that the content of each webpage is stored in at least one Quarto markdown (qmd) file.</p>
-<p>Therefore, a Quarto manuscript website can store all of its content in a single qmd file, whereas Quarto books and blogs are designed to have multiple qmd files.</p>
-<p>Between books and blogs, I consider books to be simpler, because all of the chapters in a book can be stored together in the top level directory (root), whereas the default structure of a Quarto blog includes a <code>posts</code> directory that contains a subdirectory for each post.</p>
-<p>Regardless of what you want to build with Quarto, you may want to follow the steps below to create a Quarto manuscript so that you can get familiar with the steps needed to publish and update a Quarto website before tackling the greater complexity of a book or a blog.</p>
-<p>After you feel comfortable with a Quarto manuscript, try to repeat the steps below with my book template repo: <a href="https://github.com/maptv/book" class="uri">https://github.com/maptv/book</a>.</p>
-<p>The steps below should also work for my blog template repo: <a href="https://github.com/maptv/USERNAME.github.io" class="uri">https://github.com/maptv/USERNAME.github.io</a>, but I prepared separate <a href="../../posts/presentation">blog setup instructions</a> which also explain</p>
-<ul>
-<li>why the template repository is called <code>USERNAME.github.io</code> and</li>
-<li>how to embed a Quarto presentation into a webpage like a Quarto blog post.</li>
-</ul>
-<section id="setup" class="level1">
-<h1>Setup</h1>
-<ol start="0" type="1">
-<li><p>Go to the <a href="https://github.com/maptv/art">manuscript</a> or <a href="https://github.com/maptv/book">book</a> template repo I prepared</p></li>
-<li><p>Click “Use this template” and then “Create new repository”</p></li>
-</ol>
-<p><img src="images/clipboard-3526150383.png" class="img-fluid" width="290"></p>
-<ol start="2" type="1">
-<li>Enter a repository name and click “Create repository”</li>
-</ol>
-<p><img src="images/clipboard-2337781893.png" class="img-fluid" width="290"></p>
-<ol start="3" type="1">
-<li><p>Copy the web address (url)</p></li>
-<li><p>Go to https://posit.cloud</p></li>
-<li><p>Click “New Project” and then “New Project from Git Repository”</p></li>
-</ol>
-<p><img src="images/clipboard-372316784.png" class="img-fluid" width="290"></p>
-<ol start="6" type="1">
-<li>Paste the repo url you copied in Step 3 and click “OK”</li>
-<li>In the Files tab of the bottom right pane, select git.R</li>
-<li>Edit the user.name and user.email values in git.R and click the diskette icon to save</li>
-<li>When you see a yellow banner above git.R, click “Install” and wait for installation to complete in the background</li>
-<li>Click “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)</li>
-<li>If you already have a Personal Access Token (PAT), close the new browser tab that opened. Otherwise, enter a note, click “Generate Token”, and click the copy button.</li>
-</ol>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Studying for BIOL 109 can be challenging because it requires understanding concepts and memorizing important details. In this tutorial, I will explain a simple and effective way to study for BIOL 109 exams.</p>
+<hr>
 </section>
-<section id="updating" class="level1">
-<h1>Updating</h1>
-<ol start="12" type="1">
-<li>Make at least one change to at least one file, such as the edits to git.R above</li>
-<li>Click the “Git” tab in the top right pane of Posit Cloud</li>
-<li>Click the check box next to the file you changed</li>
-<li>Click “Commit” to open a popup window (modal)</li>
-<li>Enter a commit message in the upper right corner of the modal and click “Commit”</li>
-<li>Close all modals and click the green up arrow labeled “Push” to push your commit to GitHub</li>
-</ol>
+<section id="step-1-understand-the-material-first" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-understand-the-material-first">Step 1: Understand the material first</h2>
+<p>Before memorizing anything, make sure you understand the concepts from lectures and labs. Focus on: - Key terms - Processes (like digestion, cells, etc.) - Diagrams</p>
+<hr>
 </section>
-<section id="publishing" class="level1">
-<h1>Publishing</h1>
-<ol start="18" type="1">
-<li>Push at least one commit to your repo using the instructions above so that the credentials manager has your username and PAT</li>
-<li>Copy the command below, paste it into the terminal tab in the lower left pane, and press Enter or Return</li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>If all goes according to plan, you will never again need to run <code>quarto publish gh-pages</code> again for this repo because — thanks to <code>.github/workflows/publish.yml</code> — your site will be built and published whenever you update your site by pushing at least one commit to your repo using the “Updating” instructions above.</p>
+<section id="step-2-use-active-recall" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-use-active-recall">Step 2: Use active recall</h2>
+<p>Instead of just reading notes, test yourself: - Close your notes - Try to explain the topic out loud - Write what you remember</p>
+<p>This helps your brain learn faster.</p>
+<hr>
+</section>
+<section id="step-3-use-quizlet-or-flashcards" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-use-quizlet-or-flashcards">Step 3: Use Quizlet or flashcards</h2>
+<p>Create flashcards for: - Vocabulary - Definitions - Important processes</p>
+<p>Review them every day for better memory.</p>
+<hr>
+</section>
+<section id="step-4-practice-with-questions" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-practice-with-questions">Step 4: Practice with questions</h2>
+<p>Answer practice questions or quizzes: - This helps you prepare for exam format - You can see your weak areas</p>
+<hr>
+</section>
+<section id="step-5-review-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-review-mistakes">Step 5: Review mistakes</h2>
+<p>When you get something wrong: - Go back and understand why - Fix your misunderstanding</p>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>By using understanding, active recall, and practice, you can improve your performance in BIOL 109 and feel more confident during exams.</p>
 
 
 </section>
