@@ -10,7 +10,7 @@
 <atom:link href="https://USERNAME.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Thu, 30 Apr 2026 16:46:44 GMT</lastBuildDate>
+<lastBuildDate>Tue, 05 May 2026 13:49:13 GMT</lastBuildDate>
 <item>
   <title>How to Study for BIOL 109 Exams</title>
   <dc:creator>Khadija Laghzaoui</dc:creator>
@@ -62,7 +62,7 @@
 
  ]]></description>
   <guid>https://USERNAME.github.io/posts/tutorial/</guid>
-  <pubDate>Thu, 30 Apr 2026 16:46:44 GMT</pubDate>
+  <pubDate>Tue, 05 May 2026 13:49:13 GMT</pubDate>
   <media:content url="https://USERNAME.github.io/posts/tutorial/images/quar.png" medium="image" type="image/png" height="53" width="144"/>
 </item>
 <item>
@@ -71,7 +71,7 @@
   <link>https://USERNAME.github.io/posts/presentation/</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://USERNAME.github.io/posts/presentation/</guid>
-  <pubDate>Thu, 30 Apr 2026 16:46:44 GMT</pubDate>
+  <pubDate>Tue, 05 May 2026 13:49:13 GMT</pubDate>
 </item>
 </channel>
 </rss>
