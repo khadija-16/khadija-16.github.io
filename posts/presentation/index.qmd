@@ -41,7 +41,7 @@ format:
 - Small intestine  
 - Nutrients → blood  
 
-[@openstax_ap]
+
 
 ---
 
